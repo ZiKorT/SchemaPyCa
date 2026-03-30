@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 # Searching for jar files in the directory
-fichiers_jar = list(Path('../Versions').glob('*.jar'))
+fichiers_jar = list(Path('../versions').glob('*.jar'))
 
 # Exit cleanly if no .jar files are found
 if len(fichiers_jar) == 0:
