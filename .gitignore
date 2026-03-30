@@ -1,0 +1,12 @@
+venv/
+env/
+
+.idea/
+
+__pycache__/
+*.pyc
+
+*.jar
+*.png
+
+extracted_assets/
